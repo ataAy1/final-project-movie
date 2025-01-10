@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Define a custom theme with no action bar and a black background -->
+    <style name="Theme.FinalProject" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Set the background color of the window to black -->
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+</resources>

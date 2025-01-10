@@ -1,0 +1,146 @@
+# libs.versions.toml
+[versions]
+agp = "8.5.2"
+kotlin = "2.0.20"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.9.3"
+composeBom = "2024.12.01"
+retrofit = "2.9.0"
+coroutines = "1.7.3"
+navigationRuntimeKtx = "2.8.5"
+navigationCompose = "2.8.5"
+androidx-material3 = "1.3.1"
+
+firebaseStorage = "21.0.1"
+firebaseAuth = "23.1.0"
+firebaseDatabase = "21.0.0"
+firebaseBom = "33.1.2"
+firestoreKtx = "25.1.1"
+google-services = "4.4.2"
+
+
+googleDaggerHiltAndroid = "2.51.1"
+hilt-android = "2.51.1"
+hilt-android-compiler = "2.51"
+hiltNavigationCompose = "1.2.0"
+timber = "5.0.1"
+
+coil-compose = "2.6.0"
+
+kotlinSerialization = "1.7.0"
+materialComponents = "1.12.0"
+androidx-material = "1.7.6"
+
+mockk = "1.13.4"
+hilt-testing = "2.50"
+truth = "1.1.3"
+navigationTesting = "2.8.5"
+appcompat = "1.7.0"
+material = "1.12.0"
+room = "2.6.1"
+compose = "1.1.0"
+
+maps = "11.8.1"
+autofill = "2.50"
+async-layout = "1.0.0"
+mapbox-compose = "11.8.1"
+playServicesLocation = "21.3.0"
+uiTextGoogleFonts = "1.0.0"
+lottie = "5.0.3"
+
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "androidx-material3" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-material = { group = "androidx.compose.material", name = "material", version.ref = "androidx-material" }
+
+compose-constraintlayout = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "compose" }
+
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+retrofit-rxjava2 = { group = "com.squareup.retrofit2", name = "adapter-rxjava2", version.ref = "retrofit" }
+
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+firebase-firestore-ktx = { group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firestoreKtx" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+
+google-services = { module = "com.google.gms:google-services", version.ref = "google-services" }
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil-compose" }
+
+
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt-android" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt-android-compiler" }
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+
+
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigationRuntimeKtx" }
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinSerialization" }
+
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+mockk-android = { group = "io.mockk", name = "mockk-android", version.ref = "mockk" }
+hilt-testing = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "hilt-testing" }
+truth = { group = "com.google.truth", name = "truth", version.ref = "truth" }
+androidx-navigation-testing = { group = "androidx.navigation", name = "navigation-testing", version.ref = "navigationTesting" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+
+maps-android = { module = "com.mapbox.maps:android", version.ref = "maps" }
+maps-compose = { module = "com.mapbox.extension:maps-compose", version.ref = "maps" }
+mapbox-autofill = { module = "com.mapbox.search:autofill", version = "2.6.2" }
+mapbox-search = { module = "com.mapbox.search:mapbox-search-android-ui", version = "2.6.2" }
+mapbox-place = { module = "com.mapbox.search:place-autocomplete", version = "2.6.2" }
+mapbox-geo = { module = "com.mapbox.geocoding:mapbox-geocoding-android", version = "5.0.0" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+
+mycards = { module = "com.github.myofficework000:Cards", version = "1.1.6" }
+fonts-google = "androidx.compose.ui:ui-text-google-fonts:${versions.uiTextGoogleFonts}"
+
+
+
+lottie = { module = "com.airbnb.android:lottie", version = "6.3.0" }
+lottie-compose = { module = "com.airbnb.android:lottie-compose", version = "6.3.0" }
+
+
+
+
+smooth-bottom = { module = "com.github.PratikFagadiya:AnimatedSmoothBottomNavigation-JetpackCompose", version = "1.1.2" }
+smooth-bottomm = { module = "com.exyte:animated-navigation-bar", version = "1.0.0" }
+
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "googleDaggerHiltAndroid" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlinSerialization" }
+
+google-services = { id = "com.google.gms.google-services", version.ref = "google-services" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+ksp = { id = "com.google.devtools.ksp", version = "2.1.0-1.0.29" }
