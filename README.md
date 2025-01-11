@@ -17,6 +17,10 @@ User can see the movies provided by the application and after adding to cart. Us
 - Mapbox SDK
 - Lottie Animations
 
+## Project Structure
+
+![Screenshot_88](https://github.com/user-attachments/assets/20213186-ec83-43fb-b54a-ac613d0c0d6e)
+
 
 ## 📸 Screenshots
 
@@ -36,4 +40,5 @@ User can see the movies provided by the application and after adding to cart. Us
     <img src="/docs/12.jpeg" alt="Screenshot 8" width="250" height="540"/> 
   </div>
 </div>
+
 
