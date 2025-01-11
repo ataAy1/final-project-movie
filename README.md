@@ -1,3 +1,5 @@
+FMSS Bilişim Android Development Bootcamp with Jetpack | Trainer: Kasım ADALAN
+
 # Final Project
 User can see the movies provided by the application and after adding to cart. User can buy movies, there are 2 methods for purchasing. Cargo method and code method depends on user's option
 
@@ -23,7 +25,7 @@ User can see the movies provided by the application and after adding to cart. Us
     <img src="/docs/1.jpeg" alt="Screenshot 1" width="250" height="540"/> 
     <img src="/docs/2.jpeg" alt="Screenshot 2" width="250" height="540"/> 
     <img src="/docs/3.jpeg" alt="Screenshot 3" width="250" height="540"/> 
-    <img src="/docs/4.jpeg" alt="Screenshot 4" width="250" height="540"/> 
+    <img src="/docs/13.jpeg" alt="Screenshot 4" width="250" height="540"/> 
     <img src="/docs/5.jpeg" alt="Screenshot 5" width="250" height="540"/> 
     <img src="/docs/6.jpeg" alt="Screenshot 6" width="250" height="540"/> 
     <img src="/docs/7.jpeg" alt="Screenshot 7" width="250" height="540"/> 
